@@ -1,6 +1,6 @@
 const apiKey = 'AIzaSyDBCvQOQpCwkAzJKMXZ4kFCi025jh7gcCw';
 const spreadsheetId = '1niaYMjngBcN0HuZd-wlS3ZQvruSrlPWgMSBI0h7RCzc';
-const range = 'Sheet1!G46:G82'; // Диапазон данных
+const range = 'Sheet1!G46:G83'; // Диапазон данных
 
 const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
@@ -37,6 +37,7 @@ fetch(url)
       document.getElementById('d5').textContent = data.values[34];
       document.getElementById('d6').textContent = data.values[35];
       document.getElementById('d7').textContent = data.values[36];
+      document.getElementById('d7').textContent = data.values[37];
     } else {
       console.error('Нет данных в диапазоне');
     }
