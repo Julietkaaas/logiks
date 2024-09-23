@@ -37,7 +37,7 @@ fetch(url)
       document.getElementById('d5').textContent = data.values[34];
       document.getElementById('d6').textContent = data.values[35];
       document.getElementById('d7').textContent = data.values[36];
-      document.getElementById('d7').textContent = data.values[37];
+      document.getElementById('d8').textContent = data.values[37];
     } else {
       console.error('Нет данных в диапазоне');
     }
