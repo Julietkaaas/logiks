@@ -1,6 +1,6 @@
 const apiKey = 'AIzaSyDBCvQOQpCwkAzJKMXZ4kFCi025jh7gcCw';
 const spreadsheetId = '1niaYMjngBcN0HuZd-wlS3ZQvruSrlPWgMSBI0h7RCzc';
-const range = 'Sheet1!G46:G84'; // Диапазон данных
+const range = 'Sheet1!G47:G86'; // Диапазон данных
 
 const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
@@ -27,18 +27,19 @@ fetch(url)
       document.getElementById('a6').textContent = data.values[25];
       document.getElementById('a7').textContent = data.values[26]; 
       document.getElementById('a8').textContent = data.values[27]; 
+       document.getElementById('a9').textContent = data.values[28]; 
+      document.getElementById('a10').textContent = data.values[29]; 
       document.getElementById('b1').textContent = data.values[13]; 
       document.getElementById('b2').textContent = data.values[14]; 
       document.getElementById('b3').textContent = data.values[15]; 
       document.getElementById('b4').textContent = data.values[16]; 
-      document.getElementById('d1').textContent = data.values[31]; 
-      document.getElementById('d2').textContent = data.values[32]; 
-      document.getElementById('d3').textContent = data.values[33]; 
-      document.getElementById('d4').textContent = data.values[34]; 
-      document.getElementById('d5').textContent = data.values[35];
-      document.getElementById('d6').textContent = data.values[36];
-      document.getElementById('d7').textContent = data.values[37];
-      document.getElementById('d8').textContent = data.values[38];
+      document.getElementById('d1').textContent = data.values[33]; 
+      document.getElementById('d2').textContent = data.values[34]; 
+      document.getElementById('d3').textContent = data.values[35]; 
+      document.getElementById('d4').textContent = data.values[36]; 
+      document.getElementById('d5').textContent = data.values[37];
+      document.getElementById('d6').textContent = data.values[38];
+      document.getElementById('d7').textContent = data.values[39];
     } else {
       console.error('Нет данных в диапазоне');
     }
