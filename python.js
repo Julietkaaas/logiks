@@ -1,6 +1,6 @@
 const apiKey = 'AIzaSyDBCvQOQpCwkAzJKMXZ4kFCi025jh7gcCw';
 const spreadsheetId = '1niaYMjngBcN0HuZd-wlS3ZQvruSrlPWgMSBI0h7RCzc';
-const range = 'Sheet1!G4:G38'; // Диапазон данных
+const range = 'Sheet1!G4:G39'; // Диапазон данных
 
 const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
