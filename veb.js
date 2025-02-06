@@ -19,14 +19,13 @@ fetch(url)
       document.getElementById('a8').textContent = data.values[7];
       document.getElementById('a9').textContent = data.values[8];
       document.getElementById('a10').textContent = data.values[9];   
-      document.getElementById('a11').textContent = data.values[10]; 
+      document.getElementById('a11').textContent = data.values[13]; 
       document.getElementById('d1').textContent = data.values[14]; 
       document.getElementById('d2').textContent = data.values[15]; 
       document.getElementById('d3').textContent = data.values[16]; 
       document.getElementById('d4').textContent = data.values[17];
       document.getElementById('d5').textContent = data.values[18];
-      document.getElementById('d6').textContent = data.values[19]; 
-      document.getElementById('f1').textContent = data.values[23]; 
+      document.getElementById('f1').textContent = data.values[22]; 
     } else {
       console.error('Нет данных в диапазоне');
     }
