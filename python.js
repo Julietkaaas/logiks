@@ -38,6 +38,7 @@ fetch(url)
       document.getElementById('b6').textContent = data.values[32];
       document.getElementById('b7').textContent = data.values[33];
       document.getElementById('b8').textContent = data.values[34];
+      document.getElementById('b9').textContent = data.values[35];
     } else {
       console.error('Нет данных в диапазоне');
     }
