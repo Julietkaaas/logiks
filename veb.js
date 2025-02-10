@@ -25,7 +25,7 @@ fetch(url)
       document.getElementById('d4').textContent = data.values[16];
       document.getElementById('d5').textContent = data.values[17];
       document.getElementById('d6').textContent = data.values[18];
-      document.getElementById('f1').textContent = data.values[21]; 
+      document.getElementById('f1').textContent = data.values[22]; 
     } else {
       console.error('Нет данных в диапазоне');
     }
